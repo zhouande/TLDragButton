@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  TLDragButton-demo
+//  按钮拖拽
 //
-//  Created by andezhou on 15/7/10.
+//  Created by andezhou on 15/7/9.
 //  Copyright (c) 2015年 andezhou. All rights reserved.
 //
 
