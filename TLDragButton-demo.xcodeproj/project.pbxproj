@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13BC4F7D1B501548009E73D1 /* TLDragButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BC4F7C1B501548009E73D1 /* TLDragButton.m */; };
+		13BC64AE1B4FC8C200C8C4D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BC64AD1B4FC8C200C8C4D4 /* main.m */; };
+		13BC64B11B4FC8C200C8C4D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BC64B01B4FC8C200C8C4D4 /* AppDelegate.m */; };
+		13BC64B41B4FC8C200C8C4D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BC64B31B4FC8C200C8C4D4 /* ViewController.m */; };
+		13BC64B71B4FC8C200C8C4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BC64B51B4FC8C200C8C4D4 /* Main.storyboard */; };
+		13BC64B91B4FC8C200C8C4D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BC64B81B4FC8C200C8C4D4 /* Images.xcassets */; };
+		13BC64BC1B4FC8C200C8C4D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13BC64BA1B4FC8C200C8C4D4 /* LaunchScreen.xib */; };
+		13BC64C81B4FC8C200C8C4D4 /* TLDragButton_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BC64C71B4FC8C200C8C4D4 /* TLDragButton_demoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13BC64C21B4FC8C200C8C4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13BC64A01B4FC8C200C8C4D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13BC64A71B4FC8C200C8C4D4;
+			remoteInfo = "TLDragButton-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BC4F7B1B501548009E73D1 /* TLDragButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLDragButton.h; sourceTree = "<group>"; };
+		13BC4F7C1B501548009E73D1 /* TLDragButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLDragButton.m; sourceTree = "<group>"; };
+		13BC64A81B4FC8C200C8C4D4 /* TLDragButton-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TLDragButton-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BC64AC1B4FC8C200C8C4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BC64AD1B4FC8C200C8C4D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13BC64AF1B4FC8C200C8C4D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13BC64B01B4FC8C200C8C4D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13BC64B21B4FC8C200C8C4D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13BC64B31B4FC8C200C8C4D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13BC64B61B4FC8C200C8C4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13BC64B81B4FC8C200C8C4D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13BC64BB1B4FC8C200C8C4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13BC64C11B4FC8C200C8C4D4 /* TLDragButton-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TLDragButton-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BC64C61B4FC8C200C8C4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13BC64C71B4FC8C200C8C4D4 /* TLDragButton_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLDragButton_demoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13BC64A51B4FC8C200C8C4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BC64BE1B4FC8C200C8C4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BC649F1B4FC8C200C8C4D4 = {
+			isa = PBXGroup;
+			children = (
+				13BC64AA1B4FC8C200C8C4D4 /* TLDragButton-demo */,
+				13BC64C41B4FC8C200C8C4D4 /* TLDragButton-demoTests */,
+				13BC64A91B4FC8C200C8C4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13BC64A91B4FC8C200C8C4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13BC64A81B4FC8C200C8C4D4 /* TLDragButton-demo.app */,
+				13BC64C11B4FC8C200C8C4D4 /* TLDragButton-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13BC64AA1B4FC8C200C8C4D4 /* TLDragButton-demo */ = {
+			isa = PBXGroup;
+			children = (
+				13BC64AF1B4FC8C200C8C4D4 /* AppDelegate.h */,
+				13BC64B01B4FC8C200C8C4D4 /* AppDelegate.m */,
+				13BC4F7B1B501548009E73D1 /* TLDragButton.h */,
+				13BC4F7C1B501548009E73D1 /* TLDragButton.m */,
+				13BC64B21B4FC8C200C8C4D4 /* ViewController.h */,
+				13BC64B31B4FC8C200C8C4D4 /* ViewController.m */,
+				13BC64B51B4FC8C200C8C4D4 /* Main.storyboard */,
+				13BC64B81B4FC8C200C8C4D4 /* Images.xcassets */,
+				13BC64BA1B4FC8C200C8C4D4 /* LaunchScreen.xib */,
+				13BC64AB1B4FC8C200C8C4D4 /* Supporting Files */,
+			);
+			path = "TLDragButton-demo";
+			sourceTree = "<group>";
+		};
+		13BC64AB1B4FC8C200C8C4D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13BC64AC1B4FC8C200C8C4D4 /* Info.plist */,
+				13BC64AD1B4FC8C200C8C4D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13BC64C41B4FC8C200C8C4D4 /* TLDragButton-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13BC64C71B4FC8C200C8C4D4 /* TLDragButton_demoTests.m */,
+				13BC64C51B4FC8C200C8C4D4 /* Supporting Files */,
+			);
+			path = "TLDragButton-demoTests";
+			sourceTree = "<group>";
+		};
+		13BC64C51B4FC8C200C8C4D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13BC64C61B4FC8C200C8C4D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13BC64A71B4FC8C200C8C4D4 /* TLDragButton-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BC64CB1B4FC8C200C8C4D4 /* Build configuration list for PBXNativeTarget "TLDragButton-demo" */;
+			buildPhases = (
+				13BC64A41B4FC8C200C8C4D4 /* Sources */,
+				13BC64A51B4FC8C200C8C4D4 /* Frameworks */,
+				13BC64A61B4FC8C200C8C4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TLDragButton-demo";
+			productName = "TLDragButton-demo";
+			productReference = 13BC64A81B4FC8C200C8C4D4 /* TLDragButton-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13BC64C01B4FC8C200C8C4D4 /* TLDragButton-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13BC64CE1B4FC8C200C8C4D4 /* Build configuration list for PBXNativeTarget "TLDragButton-demoTests" */;
+			buildPhases = (
+				13BC64BD1B4FC8C200C8C4D4 /* Sources */,
+				13BC64BE1B4FC8C200C8C4D4 /* Frameworks */,
+				13BC64BF1B4FC8C200C8C4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BC64C31B4FC8C200C8C4D4 /* PBXTargetDependency */,
+			);
+			name = "TLDragButton-demoTests";
+			productName = "TLDragButton-demoTests";
+			productReference = 13BC64C11B4FC8C200C8C4D4 /* TLDragButton-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13BC64A01B4FC8C200C8C4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = andezhou;
+				TargetAttributes = {
+					13BC64A71B4FC8C200C8C4D4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 46MF2PE5UD;
+					};
+					13BC64C01B4FC8C200C8C4D4 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 13BC64A71B4FC8C200C8C4D4;
+					};
+				};
+			};
+			buildConfigurationList = 13BC64A31B4FC8C200C8C4D4 /* Build configuration list for PBXProject "TLDragButton-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13BC649F1B4FC8C200C8C4D4;
+			productRefGroup = 13BC64A91B4FC8C200C8C4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13BC64A71B4FC8C200C8C4D4 /* TLDragButton-demo */,
+				13BC64C01B4FC8C200C8C4D4 /* TLDragButton-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13BC64A61B4FC8C200C8C4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BC64B71B4FC8C200C8C4D4 /* Main.storyboard in Resources */,
+				13BC64BC1B4FC8C200C8C4D4 /* LaunchScreen.xib in Resources */,
+				13BC64B91B4FC8C200C8C4D4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BC64BF1B4FC8C200C8C4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13BC64A41B4FC8C200C8C4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BC64B41B4FC8C200C8C4D4 /* ViewController.m in Sources */,
+				13BC64B11B4FC8C200C8C4D4 /* AppDelegate.m in Sources */,
+				13BC64AE1B4FC8C200C8C4D4 /* main.m in Sources */,
+				13BC4F7D1B501548009E73D1 /* TLDragButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13BC64BD1B4FC8C200C8C4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BC64C81B4FC8C200C8C4D4 /* TLDragButton_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13BC64C31B4FC8C200C8C4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13BC64A71B4FC8C200C8C4D4 /* TLDragButton-demo */;
+			targetProxy = 13BC64C21B4FC8C200C8C4D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13BC64B51B4FC8C200C8C4D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BC64B61B4FC8C200C8C4D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13BC64BA1B4FC8C200C8C4D4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13BC64BB1B4FC8C200C8C4D4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13BC64C91B4FC8C200C8C4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13BC64CA1B4FC8C200C8C4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13BC64CC1B4FC8C200C8C4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TLDragButton-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		13BC64CD1B4FC8C200C8C4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TLDragButton-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		13BC64CF1B4FC8C200C8C4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TLDragButton-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLDragButton-demo.app/TLDragButton-demo";
+			};
+			name = Debug;
+		};
+		13BC64D01B4FC8C200C8C4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TLDragButton-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLDragButton-demo.app/TLDragButton-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13BC64A31B4FC8C200C8C4D4 /* Build configuration list for PBXProject "TLDragButton-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BC64C91B4FC8C200C8C4D4 /* Debug */,
+				13BC64CA1B4FC8C200C8C4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BC64CB1B4FC8C200C8C4D4 /* Build configuration list for PBXNativeTarget "TLDragButton-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BC64CC1B4FC8C200C8C4D4 /* Debug */,
+				13BC64CD1B4FC8C200C8C4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13BC64CE1B4FC8C200C8C4D4 /* Build configuration list for PBXNativeTarget "TLDragButton-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BC64CF1B4FC8C200C8C4D4 /* Debug */,
+				13BC64D01B4FC8C200C8C4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13BC64A01B4FC8C200C8C4D4 /* Project object */;
+}
